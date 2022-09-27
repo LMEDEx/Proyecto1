@@ -7,22 +7,205 @@
     </head>
     <body>
         <div align="center"><small>
-            <a href="#CPU">PROCESADOR</a> |
+            <a href="#PROCESADOR">PROCESADOR</a> |
             <a href="#PLACA BASE">PLACA BASE</a> |
             <a href="#MEMORIA RAM">MEMORIA RAM</a> |
             <a href="#DISCO DURO">DISCO DURO</a> |
             </small></div>
         <h1>Componentes de un Ordenador</h1>
         <img src="imagenes/esquemacomponentes.jpg">
+
+        <a id="PROCESADOR"></a> 
         <h2>PROCESADOR</h2> <!--Efren-->
 
+         <h3>¿Qué es un procesador?</h3>
 
+         <img src="imagenes/cpuryzen.jpg">
+            <p>
+                El procesador o CPU (Central Processing Unit) es la unidad central de procesamiento de un ordenador. 
+                Digamos que es el cerebro de una computadora el cual realiza instrucciones y tareas recibidas por los distintos 
+                componentes del ordenador, haciendo que el funcionamiento del sistema sea correcto. Se conecta a la placa base 
+                mediante un zócalo concreto y suele añadirse un disipador de calor para evitar que se caliente demasiado.
+            </p>
+            <img src="imagenes/colocandocpu.jpg">
+         <h3>Características:</h3>
+            <p>
+                Velocidad: La velocidad se mide en Hz, y determina la frecuencia en la que el procesador 
+                realiza las operaciones por ciclo, cuanto más alto sea, mayor será la velocidad de tareas que realiza nuestro ordenador.
+            </p>
+
+            <p>
+                Núcleos: Los procesadores actuales pueden tener varios núcleos. Cada núcleo es una unidad central de proceso separada e 
+                independiente, por lo que cuantos más núcleos posea un procesador, nos permitirá realizar mayor cantidad de tareas simultáneas
+                en la computadora, es decir que cada unidad central de procesamiento realiza una tarea específica. Con esto ganamos mucha 
+                eficiencia en el rendimiento de nuestro equipo.
+            </p>
+
+            <table>
+                <tr>
+                  <td>Dual core: dos núcleos</td>
+                  <td>Quad Core: cuatro núcleos</td>
+                </tr>
+                <tr>
+                  <td>Hexa Core: seis núcleos</td>
+                  <td>Octa Core: ocho núcleos</td>
+                </tr>
+                <tr>
+                  <td>Deca Core: diez núcleos</td>
+                </tr>
+              </table>
+
+
+            <p>
+                Hilos: Es un medio que permite administrar las tareas de un procesador y de sus diferentes núcleos de una forma más eficiente. 
+                Divide una tarea en porciones para que parezca que ambas se ejecutan al mismo tiempo haciendo que los recursos del sistema sean 
+                administrados de forma más equitativa y eficiente. Generalmente por cada núcleo hay dos hilos, por ejemplo en los procesadores 
+                que tienen 6 núcleos y 12 hilos serán capaces de dividir los procesos en 12 tareas distintas en lugar de solamente 6.
+            </p>
+
+            <p>
+                Memoria Caché: Es un tipo de memoria extremadamente rápida y de muy poca capacidad que es usada por el procesador y todos sus 
+                núcleos para guardar datos de acceso frecuente para que no tengan que ser buscados en otros sistemas de almacenamiento más 
+                lentos como la memoria RAM o el disco duro. La caché de la CPU se suele dividir en 4 niveles de implementación; L1, L2, L3 y L4.
+                Cuanto inferior sea el nivel, más rápida y menor capacidad tendrá.
+            </p>
+    
+            <h3>RECOMENDACIÓN</h3>
+
+            <table>
+                <tr>
+                    <td>INTEL</td>
+                    <td>VELOCIDAD</td>
+                    <td>NUCLEOS</td>
+                    <td>HILOS</td>
+                    <td>MEMORIA CACHÉ TOTAL</td>
+                    <td>PRECIO</td>
+                  </tr>
+                <tr>
+                  <td><a target="_blank" href="https://www.pccomponentes.com/intel-core-i3-12100-43-ghz">Intel Core i3-12100</a></td>
+                  <td>4.3 GHz</td>
+                  <td>4</td>
+                  <td>8</td>
+                  <td>12 MB</td>
+                  <td>155,29€</td>
+                </tr>
+                <tr>
+                    <td><a target="_blank" href="https://www.pccomponentes.com/intel-core-i5-12600k-49-ghz">Intel Core i5-12600K</a></td>
+                    <td>4.9 GHz</td>
+                    <td>10</td>
+                    <td>16</td>
+                    <td>20 MB</td>  
+                    <td>347,99€</td>
+                </tr>
+                <tr>
+                    <td><a target="_blank" href="https://www.pccomponentes.com/intel-core-i9-12900-51-ghz">Intel Core i9-12900</a></td>
+                    <td>5.10 Ghz</td>
+                    <td>16</td>
+                    <td>8</td>
+                    <td>30 MB</td>
+                    <td>665,94€</td>
+                </tr>
+                <tr>
+                    <td>AMD</td>
+                    <td>VELOCIDAD</td>
+                    <td>NUCLEOS</td>
+                    <td>HILOS</td>
+                    <td>MEMORIA CACHÉ TOTAL</td>
+                    <td>PRECIO</td>
+                  </tr>
+                <tr>
+                  <td><a target="_blank" href="https://www.pccomponentes.com/amd-ryzen-5-5600-35ghz-box">AMD Ryzen 5 5600</a></td>
+                  <td>3.5GHz</td>
+                  <td>6</td>
+                  <td>12</td>
+                  <td>32MB</td>
+                  <td>189,13€</td>
+                </tr>
+                <tr>
+                    <td><a target="_blank" href="https://www.pccomponentes.com/amd-ryzen-7-5800x-38ghz">AMD Ryzen 7 5800X</a></td>
+                    <td>3.8Ghz</td>
+                    <td>8</td>
+                    <td>16</td>
+                    <td>32MB</td>
+                    <td>321€</td>
+                </tr>
+                <tr>
+                    <td><a target="_blank" href ="https://www.pccomponentes.com/amd-ryzen-9-5900x-37-ghz">AMD Ryzen 9 5900X</a></td>
+                    <td>3.7 GHz</td>
+                    <td>12</td>
+                    <td>24</td>
+                    <td>64MB</td>
+                    <td>442,49€</td>
+                </tr>
+              </table>
+        
+        <a id="PLACA BASE"></a> 
         <h2>PLACA BASE</h2> <!--Dan-->
+        <body >
+        
+            
+            <h3>¿Qué es la pplaca base de un ordenador? </h3>
+            <p>La placa base es la columna vertebral del ordenador, esa en la que están algunos de los componentes o partes más importantes de tu equipo.
+            La placa base es esa en la que se conectan todos los componentes internos del ordenador, desde el procesador hasta los discos duros, la memoria RAM o la tarjeta gráfica. Cada uno de estos componentes tiene su propia ranura para que puedas conectarla.</p>
+            <p>En la estructura básica de la placa base destaca la placa de circuito impreso, también conocida como PCB (Printed Circuit Board). Se trata de ese sustrato no conductor de la carga eléctrica sobre el que se colocan los demás componentes.
+            Todos estos son los componentes básicos, esos que vienen preinstalados en la placa base, y que son los que se aseguran de que los subsistemas de la placa base funcionen y puedan establecer las conexiones e intercambios de información por parte del resto de partes que hay en ella.</p>
+            <p>A continuación, vamos a irte explicando cuáles son esos otros componentes o partes que hay dentro de una placa base, y de la que dependen su correcto funcionamiento. </p>
+            <h3>El CHIPSET</h3>
+            <img src="imagenes/Chipset.jpg" alt="chipset" width="350" height="183">
+            <p>El chipset es el auténtico cerebro de la placa base. Su nombre significa literalmente conjunto de chips, y su función es controlar el flujo de datos entre diferentes componentes clave del ordenador, como el procesador, la memoria y los diferentes periféricos que haya conectados. 
+            En la placa base tienes la tarjeta gráfica, la CPU o los módulos de memoria, y también conectas el monitor y muchos otros. Entre ellos está el propio chipset, que es el responsable de que el resto de componentes puedan comunicarse correctamente entre sí.
+            Es el que controla y organiza los datos entre el procesador y el resto de componentes para que todo funcione correctamente El chipset es el encargado de controlar el tráfico de los datos, el centro de operaciones donde todos se organizan.
+            </p>
+            <h3>SISTEMA DE ALIMENTACIÓN ELÉCTRICA</h3>
+            <img src="imagenes/sistema_alimentacion_electrica.jpg" alt="alimetacion " width="350" height="183">
+            <p>Uno de los aspectos que condicionan la calidad de la placa base es su sistema de alimentación eléctrica Viene a ser todo el conjunto interno de componentes que se encargan de la regulación del voltaje interno de la placa base, así como sus fases de alimentación eléctrica.Hay dos componentes de los sistemas de alimentación que son especialmente importante. 
+            El primero son los módulos reguladores de voltaje o VRM (Voltage Regulator Module).
+            Los fabricantes de placas base ponen en el VRM varias fases de alimentación, y cada una de ellas actúa como una etapa de rectificación y filtrado para estabilizar la corriente que llega.
+            <p>Son los componentes de la placa base que adaptan el voltaje de la fuente de alimentación a los componentes de nuestros ordenadores, de manera que no sea insuficiente para que funcionen correctamente y no sean demasiado como para forzar el sistema de refrigeración, o comprometer la salud del componente.
+            El otro componente clave son las fases de alimentación eléctrica, cuya misión es hacer que el procesador o la memoria principal de la placa base tengan una alimentación lo más plana y estable posible, de forma que no haya ningún pico que afecte a su funcionamiento. </p>
+            <h3>DISIPADORES</h3>
+            <img src="imagenes/disipador.jpg" alt="alimetacion " width="350" height="183">
+            <p>La placa base de tu ordenador tiene muchos componentes y circuitos, y algunos de ellos pueden llegar a generar mucho calor,
+            y si algunos componentes alcanzan o superan ciertos umbrales máximos de temperatura durante mucho tiempo podrían dañarse para siempre.
+            Por eso, la mayoría de placas base actuales tienen varios disipadores para que ayuden a evacuar el calor residual al resto de componentes que puede haber en la placa base para ello.</p>
+            <h4>RECOMENDACIÓN</h4>
+            <table>
+                
+                <tr>
+                    <td></td>
+                    <td>GamaBaja:<a target="blank" href="https://www.pccomponentes.com/gigabyte-h410m-s2h-v3?offer=1123be7b-4e1d-47e0-85fd-d65ecd3d63ab">Gigabyte H410M S2H V3</a></td>
+                    <td>GamaMedia:<a target="blank" href="https://www.pccomponentes.com/gigabyte-b550m-ds3h">Gigabyte B550M DS3H</a></td>
+                    <td>GamaAlta:<a target="blank" href="https://www.pccomponentes.com/asus-rog-maximus-z690-extreme-glacial">Asus ROG MAXIMUS Z690</a></td>
+                </tr>
+                <tr>
+                    <th>Chipset</th>
+                    <th> Intel H510</th>
+                    <th>AMD B550</th>
+                    <th>Intel® Z690 Chipset</th>
 
+                </tr>
+                <tr>
+                    <th> Tamaño</th>
+                    <th>ATX(305 mm × 244 mm)</th>
+                    <th>micro ATX(244 x 244 mm)</th>
+                    <th>EATX(305 × 330 mm)</th>
 
+                </tr>
+                <tr>
+                    <th>Precio</th>
+                    <th>34,45€</th>
+                    <th>128,16€</th>
+                    <th>2989€</th>
+
+                </tr>
+            </table>
+            
+        </body>
+
+        <a id="MEMORIA RAM"></a> 
         <h2>MEMORIA RAM</h2> <!--xxx-->
 
-        
+        <a id="DISCO DURO"></a> 
         <h2>DISCO DURO</h2> <!--Ekain-->
         <img src="imagenes/descarga.jfif"  >
 
