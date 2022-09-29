@@ -3,17 +3,27 @@
     border-collapse: collapse;
     text-align: left;
     padding: 4px;
-    border: 1px solid;
+    border: 1px solid white;
     
   }
   table{
     width: 100%;
+    color: white;
   }
   body{
     padding-left: 15%;
     padding-right: 15%;
-
+background-color: #272727;
   }
   img{
     width: 500px;
+  }
+  .centrado{
+    margin:10px auto;
+    display:block;
+    width: 100%;
+    
+  }
+  h1, h2, h3, p{
+    color:white;
   }
