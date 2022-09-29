@@ -27,7 +27,13 @@ background-color: #272727;
   h1, h2, h3, p{
     color:white;
   }
+<<<<<<< HEAD
   .imgbox {
     float: right;
     max-width: 300px;
   }
+=======
+  a{
+    color:aqua 
+  }
+>>>>>>> 4c043f0786e1a60d94771aad9772dff60612c242
