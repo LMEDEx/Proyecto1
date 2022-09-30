@@ -3,35 +3,42 @@
     <head>
         <title>Componentes by LMEDEx</title>
         <meta charset="UTF-8">
-        <link rel="stylesheet" href="estilos.css" href="boostrap-grid.css">
+        <link rel="stylesheet" href="estilos.css">
+        <link rel="stylesheet" href="bootstrap-grid.css">
         <meta name="viewport" content="width=device-width, initial-scale=1">
  
     </head>
     <body>
+      
         <div align="center"><small>
             <a href="#PROCESADOR">PROCESADOR</a> |
             <a href="#PLACA BASE">PLACA BASE</a> |
             <a href="#MEMORIA RAM">MEMORIA RAM</a> |
             <a href="#DISCO DURO">DISCO DURO</a> |
             </small></div>
-        <h1>Componentes de un Ordenador</h1>
+        <h1>COMPONENTES DE UN ORDENADOR</h1>
 
         <img class="centrado" src="imagenes/esquemacomponentes.jpg">
 
         <a id="PROCESADOR"></a> 
         <h2>PROCESADOR</h2> <!--Efren-->
-
-         <h3>¿Qué es un procesador?</h3>
-
-         <img src="imagenes/cpuryzen.jpg">
-            <p>
-              El procesador o CPU (Central Processing Unit) es la unidad central de procesamiento de un ordenador. 
-              Digamos que es el cerebro de una computadora el cual realiza instrucciones y tareas recibidas por los distintos 
-              componentes del ordenador, haciendo que el funcionamiento del sistema sea correcto. Se conecta a la placa base 
-              mediante un zócalo concreto y suele añadirse un disipador de calor para evitar que se caliente demasiado.
-            </p>
+        <h3>¿Qué es un procesador?</h3>
+        <p>
+          El procesador o CPU (Central Processing Unit) es la unidad central de procesamiento de un ordenador. 
+          Digamos que es el cerebro de una computadora el cual realiza instrucciones y tareas recibidas por los distintos 
+          componentes del ordenador, haciendo que el funcionamiento del sistema sea correcto. Se conecta a la placa base 
+          mediante un zócalo concreto y suele añadirse un disipador de calor para evitar que se caliente demasiado.
+        </p>
+        
+         <div class="row">
+         <div class="col-6">
+          <img class="centrado "src="imagenes/cpuryzen.jpg">
+         </div>
+         <div class="col-6">
             <img src="imagenes/colocandocpu.jpg">
-         <h3>Características:</h3>
+         </div>
+        </div>
+        <h3>Características:</h3>
             <p>
                 <b>Velocidad:</b> La velocidad se mide en Hz, y determina la frecuencia en la que el procesador 
                 realiza las operaciones por ciclo, cuanto más alto sea, mayor será la velocidad de tareas que realiza nuestro ordenador.
@@ -57,7 +64,6 @@
                   <td>Deca Core: diez núcleos</td>
                 </tr>
               </table>
-
 
             <p>
                 <b>Hilos:</b> Es un medio que permite administrar las tareas de un procesador y de sus diferentes núcleos de una forma más eficiente. 
@@ -153,12 +159,19 @@
             <p>En la estructura básica de la placa base destaca la placa de circuito impreso, también conocida como PCB (Printed Circuit Board). Se trata de ese sustrato no conductor de la carga eléctrica sobre el que se colocan los demás componentes.
             Todos estos son los componentes básicos, esos que vienen preinstalados en la placa base, y que son los que se aseguran de que los subsistemas de la placa base funcionen y puedan establecer las conexiones e intercambios de información por parte del resto de partes que hay en ella.</p>
             <p>A continuación, vamos a irte explicando cuáles son esos otros componentes o partes que hay dentro de una placa base, y de la que dependen su correcto funcionamiento. </p>
-            <h3>El CHIPSET</h3>
-            <img src="imagenes/Chipset.jpg" alt="chipset" width="350" height="183">
-            <p>El chipset es el auténtico cerebro de la placa base. Su nombre significa literalmente conjunto de chips, y su función es controlar el flujo de datos entre diferentes componentes clave del ordenador, como el procesador, la memoria y los diferentes periféricos que haya conectados. 
-            En la placa base tienes la tarjeta gráfica, la CPU o los módulos de memoria, y también conectas el monitor y muchos otros. Entre ellos está el propio chipset, que es el responsable de que el resto de componentes puedan comunicarse correctamente entre sí.
-            Es el que controla y organiza los datos entre el procesador y el resto de componentes para que todo funcione correctamente El chipset es el encargado de controlar el tráfico de los datos, el centro de operaciones donde todos se organizan.
-            </p>
+            
+            <div class="row">
+              <div class="col-6">
+               <h3>El CHIPSET</h3>
+               <p>El chipset es el auténtico cerebro de la placa base. Su nombre significa literalmente conjunto de chips, y su función es controlar el flujo de datos entre diferentes componentes clave del ordenador, como el procesador, la memoria y los diferentes periféricos que haya conectados. 
+                 En la placa base tienes la tarjeta gráfica, la CPU o los módulos de memoria, y también conectas el monitor y muchos otros. Entre ellos está el propio chipset, que es el responsable de que el resto de componentes puedan comunicarse correctamente entre sí.
+                 Es el que controla y organiza los datos entre el procesador y el resto de componentes para que todo funcione correctamente El chipset es el encargado de controlar el tráfico de los datos, el centro de operaciones donde todos se organizan.
+               </p>
+             </div>
+             <div class="col-6">
+              <img src="imagenes/Chipset.jpg" alt="chipset" width="350" height="183">
+             </div>
+          </div>
             <h3>SISTEMA DE ALIMENTACIÓN ELÉCTRICA</h3>
             <img src="imagenes/sistema_alimentacion_electrica.jpg" alt="alimetacion " width="350" height="183">
             <p>Uno de los aspectos que condicionan la calidad de la placa base es su sistema de alimentación eléctrica Viene a ser todo el conjunto interno de componentes que se encargan de la regulación del voltaje interno de la placa base, así como sus fases de alimentación eléctrica.Hay dos componentes de los sistemas de alimentación que son especialmente importante. 
